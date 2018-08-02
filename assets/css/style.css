@@ -1,6 +1,47 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins.eot);
+    src: url('../fonts/Poppins.eot?#iefix') format('embedded-opentype'), url(../fonts/Poppins.woff) format('woff'), url(../fonts/Poppins.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(../fonts/Poppins-Regular.eot);
+    src: url('../fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'), url(../fonts/Poppins-Regular.woff) format('woff'), url(../fonts/Poppins-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url(../fonts/Poppins-SemiBold.eot);
+    src: url('../fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'), url(../fonts/Poppins-SemiBold.woff) format('woff'), url(../fonts/Poppins-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url(../fonts/Poppins-Medium.eot);
+    src: url('../fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'), url(../fonts/Poppins-Medium.woff) format('woff'), url(../fonts/Poppins-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url(../fonts/Poppins-Light.eot);
+    src: url('../fonts/Poppins-Light.eot?#iefix') format('embedded-opentype'), url(../fonts/Poppins-Light.woff) format('woff'), url(../fonts/Poppins-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal
+}
+
+
 *::-moz-selection {
   background: #f6b20e none repeat scroll 0 0;
   color: #fff;
@@ -10,7 +51,7 @@
 
  body {
 	background:#fff;
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins-Regular';
 	font-size: 16px;
 	line-height: 30px;
 	overflow-x:hidden;
@@ -20,10 +61,6 @@
 section {
   clear: both;
   padding:110px 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto Slab', serif;
 }
 
 h1 {
@@ -183,7 +220,6 @@ header {
 
 .navbar ul.nav.navbar-nav li a {
   color: hsl(0, 0%, 100%);
-  font-family: "Open Sans",sans-serif;
   font-size: 15px;
   font-weight: 400;
   padding-left: 10px;
@@ -265,7 +301,6 @@ section.post_blog_bg {
   padding: 40px 0;
 }
 .blog_post > p {
-  font-family: open sans;
   font-size: 17px;
   font-weight: 400;
   margin: 0 0 15px;
@@ -411,7 +446,6 @@ margin-bottom: 40px;
   border: medium none;
   border-radius: 10px;
   color: hsl(0, 0%, 100%);
-  font-family: roboto slab;
   font-size: 22px;
   height: 50px;
   width: 100%;
@@ -609,7 +643,6 @@ section.coming_soon_bg:after {
   line-height: 50px;
   text-align: center;
   font-weight: 400;
-  font-family: roboto slab;
 }
 #defaultCountdown .countdown-section .countdown-amount {
   border: 2px solid #ffa200;
@@ -621,7 +654,6 @@ section.coming_soon_bg:after {
   line-height: 33px;
   padding: 35px 0;
   text-align: center;
-  font-family: roboto slab;
 
 }
 
@@ -648,7 +680,6 @@ section.coming_soon_bg:after {
   border: medium none;
 border-radius: 0 10px 10px 0;
   color: hsl(0, 0%, 100%);
-  font-family: roboto slab;
   font-size: 22px;
   font-weight: 500;
   line-height: 29px;
@@ -806,7 +837,6 @@ ul.breadcrumbs_m {
   border: 1px solid hsl(0, 0%, 100%);
   border-radius: 10px;
   color: hsl(0, 0%, 100%);
-  font-family: roboto slab;
   font-size: 22px;
   font-weight: 500;
   line-height: 29px;
@@ -1010,7 +1040,6 @@ section.top_banner_bg:after {
   margin: 40px 5px 0;
   padding: 5px 35px;
   text-shadow: 1px 1px 1px hsl(0, 0%, 0%);
-  font-family: roboto slab;
 }
 
 .section_btn > span .btn.btn-default {
@@ -1411,7 +1440,6 @@ section.our_service_bg:after {
   border: 0 none;
   border-radius: 10px;
   color: hsl(0, 0%, 100%);
-  font-family: roboto slab;
   font-size: 22px;
   font-weight: 500;
   line-height: 35px;
@@ -1639,7 +1667,6 @@ label {
   font-weight: 700;
   margin-bottom: 5px;
   max-width: 100%;
-  font-family: roboto slab;
 }
 
 .form-group {
@@ -2257,7 +2284,6 @@ body, html {
   padding: 0;
   margin: 0;
   background: #F7F8FA;
-  font-family: "Lato", sans-serif;
   color: #676767;
 }
 
@@ -2559,5 +2585,4 @@ body, html {
     opacity: 1;
   }
 }
-
 

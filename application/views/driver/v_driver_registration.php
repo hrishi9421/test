@@ -1,12 +1,12 @@
 <?php require_once(APPPATH.'views/home/v_header.php'); ?>
-<div class="image-container set-full-height" style="background-image: url('<?php echo base_url();?>assets/images/wizard-profile.jpg')">
-<!--     Fonts and icons     -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+<body>
+    <div class="image-container set-full-height" style="background-image: url('<?php echo base_url();?>assets/images/wizard-profile.jpg')">
+    
+    <!--     Fonts and icons     -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" /> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-
     <link href="<?php echo base_url();?>assets/css/bootstrap/material-bootstrap-wizard.css" rel="stylesheet" />
 
-<body>
     <!--  Made With Material Kit  -->
     <a href="http://demos.creative-tim.com/material-kit/index.html?ref=material-bootstrap-wizard" class="made-with-mk">
         <div class="brand">MK</div>
