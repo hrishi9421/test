@@ -25,9 +25,12 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 
-	<script src="<?php echo base_url();?>assets/js/common/jquery.min.js"></script>
-	<script src="<?php echo base_url();?>assets/js/common/bootstrap.min.js"></script>
-	<!-- <script src="<?php echo base_url();?>assets/js/common/interface.js"></script> -->
+	<script src="<?php echo base_url();?>assets/js/common/jquery.min.js" type="text/javascript"></script>
+	<script src="<?php echo base_url();?>assets/js/common/bootstrap.min.js" type="text/javascript"></script>
+	
+	<script src="<?php echo base_url();?>assets/js/common/jquery.bootstrap.js" type="text/javascript"></script>
+	<script src="<?php echo base_url();?>assets/js/common/material-bootstrap-wizard.js" type="text/javascript"></script>
+	<script src="<?php echo base_url();?>assets/js/common/jquery.validate.min.js" type="text/javascript"></script>
 
 	<header class="navbar-fixed-top">
 

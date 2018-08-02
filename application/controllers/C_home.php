@@ -17,7 +17,7 @@ class C_home extends CI_Controller
 
 	function driver_registration()
 	{
-		
+		$this->load->view('driver/v_driver_registration.php');
 	}
 }
 
